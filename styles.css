@@ -136,7 +136,7 @@ h2 {
     margin: none;
     justify-content: right;
     color: #fff;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 
     position: absolute;
     right: 0px;
@@ -160,3 +160,4 @@ h2 {
     border-radius: 100px;
     padding-top: 5%;
 }
+
