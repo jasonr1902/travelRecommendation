@@ -61,8 +61,7 @@ nav > button:hover {
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    min-height: 50vh;
+    min-height: 100vh;
     padding: 20px;
 }
 
@@ -126,4 +125,38 @@ h2 {
     max-width: 200px;
     margin-top: auto;
     color: #fff;
+}
+
+#search-results {
+    border-radius: 10px;
+    margin-right: 15px;
+    padding-right: 10px;;
+    padding-left: 10px;
+    max-width: 600px;
+    margin: none;
+    justify-content: right;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    position: absolute;
+    right: 0px;
+    max-width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#search-results > div {
+    justify-content: center;
+}
+
+.city-name {
+    font-size: 24px;
+    padding: none;
+}
+
+.city-image {
+    width: 100%;
+    border-radius: 100px;
+    padding-top: 5%;
 }
