@@ -1,0 +1,129 @@
+nav {
+    background-color: #333;
+    height: 40px;
+    display: flex;
+    border-radius: 0px 0px 5px 5px;
+    align-items: center;
+    justify-content: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav > a {
+    color: #ddd;
+    text-decoration: none;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    color: white;
+}
+
+#search-bar {
+    height: 23px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: none;
+
+}
+
+nav > button {
+    background-color: #444;
+    border: none;
+    padding: 0px 5px;
+    margin-right: 10px;
+    height: 25px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#search-button {
+    border-radius: 0px 5px 5px 0px;
+}
+
+#reset {
+    border-radius: 5px;
+    background-color: #da4747;
+}
+
+nav > button:hover {
+    background-color: #555;
+}
+
+#main-content {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    padding: 20px;
+}
+
+#main-content > h1 {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: auto;
+    margin: 0;
+}
+
+.description {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    width: 40%;
+    text-align: left;
+}
+
+#our-team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+h2 {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.team-member {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    margin: 2px;
+}
+
+.team-member-description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #ddd;
+    margin-top: 5px;
+    
+}
+
+#contact-form {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 200px;
+    margin-top: auto;
+    color: #fff;
+}
