@@ -95,4 +95,4 @@ function clear() {
     document.getElementById('search-bar').value = ''; // Clear search input
 }
 
-document.getElementById('clear-button').addEventListener('click', clear);
+document.getElementById('reset').addEventListener('click', clear);
